@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Helvetica;
+}
+body{
+    max-width: 1200px;
+    margin: auto;
+    background-color: black;
+}
+header{
+    background-color:#ecceab ;
+    font-family:Helvetica;
+    font-size: 24px;
+    text-align: center;
+    padding: 40px;
+    padding-top: 50px;
+
+}
+main{
+    background-color:#ecceab ;
+}
+.th{
+    text-align: center;
+}
+.table{
+    background-color:#fffefea6;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+header h1{
+    margin: center;
+    box-sizing: border-box;
+}
+footer{
+    background-color:white;
+    padding: 20px;
+    height: 80px;
+}
+.rodape{
+    height: 15px;
+    font-size: 20px;
+    list-style-type:  none;
+    float:left;
+    text-align: left;
+    margin-left: 15px;
+    border-style: solid;
+    border-width:0px 2px 0px 0px;
+    padding: 10px;
+    
+}
+.linkRodape{
+    color: black;
+    text-decoration: none;
+
+}
+.linkRodape:hover{
+background-color:#fff4e6;
+border: solid 0;
+border-radius: 10px; 
+}
+@media screen and (max-width:1200px){   
+    footer {
+        box-sizing: border-box;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+    }
+    .rodape {
+        margin: auto;
+        height: auto;
+        width: auto;
+    }
+}
+
+.topnav {
+overflow: hidden;
+background-color: white;
+position: fixed;
+box-sizing: border-box;
+width: 100%;
+max-width: 1200px;
+}
+
+.topnav a {
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+font-weight: bold;
+
+} 
+.topnav a:hover {
+background-color: #ecceab;
+border: solid;
+border-width: 0px;
+border-radius: 10px;
+}
+
+.topnav a.active {
+background-color: #946846;
+color: white;
+border: solid;
+border-width: 0px;
+border-radius: 10px;
+}
+
+.topnav .icon {
+display: none;
+}
+
+@media screen and (max-width: 660px) {
+.topnav a:not(:first-child) {display: none;}
+.topnav a.icon {
+  float: right;
+  display: block;
+}
+}
+
+@media screen and (max-width: 660px) {
+.topnav.responsive {position: fixed;}
+.topnav.responsive .icon {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+.rodape{
+    float: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+}
