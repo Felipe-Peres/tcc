@@ -4,7 +4,7 @@
     font-family:Helvetica;
 }
 body{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     background-color: black;
 }
@@ -104,7 +104,7 @@ input[type=submit]:hover {
     border: solid 0;
     border-radius: 10px; 
     }
-    @media screen and (max-width:1000px){   
+    @media screen and (max-width:1200px){   
         #gift{
             display: block;
             text-align: center;
@@ -137,7 +137,7 @@ input[type=submit]:hover {
     position: fixed;
     box-sizing: border-box;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
   }
   
   .topnav a {

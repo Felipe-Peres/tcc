@@ -4,7 +4,7 @@
     font-family:Helvetica;
 }
 body{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     background-color: black;
 }
@@ -68,7 +68,7 @@ header h1{
     position: fixed;
     top: 0;
     box-sizing: border-box;
-    width: 1000px;
+    width: 1200px;
 }
 
 
@@ -77,7 +77,7 @@ header h1{
     letter-spacing: 2px;
 }
 .fotocasal{ 
-    max-width: 1000px;
+    max-width: 1200px;
     height: 300px;
     overflow: hidden;
     background-image: url('./images/fotoinicio.jpg');
@@ -89,7 +89,7 @@ header h1{
 .historias{
     position: static;
     background-color: #ecceab;
-    max-width: 1000px; 
+    max-width: 1200px; 
     padding: 20px;
   
 }
@@ -196,7 +196,7 @@ border: solid 0;
 border-radius: 10px; 
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1200px){
     
     
     footer {
@@ -245,7 +245,7 @@ border-radius: 10px;
     position: fixed;
     box-sizing: border-box;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     
   }
   
