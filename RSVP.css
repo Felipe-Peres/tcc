@@ -8,6 +8,7 @@ body{
     margin: auto;
     background-color: black;
 }
+
 header{
     background-color:#ecceab ;
     font-family:Helvetica;
@@ -31,6 +32,21 @@ main {
     margin-top: 10px;
     margin-bottom: 10px;    
 }
+.icone{
+    width: 16px;
+    padding-right: 20px;
+  }
+  #adm{
+    margin-left: 357px;
+  }
+
+  @media screen and (max-width: 1217px){
+
+    #adm{
+        margin-left: auto;
+      }
+  }
+  
 .formulario {
     background-color: #fffefea6;
     border: solid;

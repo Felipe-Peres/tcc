@@ -18,6 +18,21 @@ header{
     padding-bottom: 40px;
 
 }
+.icone{
+    width: 16px;
+    padding-right: 20px;
+  }
+  #adm{
+    margin-left: 357px;
+  }
+
+  @media screen and (max-width: 1217px){
+
+    #adm{
+        margin-left: auto;
+      }
+  }
+  
 header h1{
     margin-bottom: 10px;
 }

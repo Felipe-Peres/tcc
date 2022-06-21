@@ -104,6 +104,21 @@ input[type=submit]:hover {
     border: solid 0;
     border-radius: 10px; 
     }
+    .icone{
+        width: 16px;
+        padding-right: 20px;
+      }
+      #adm{
+        margin-left: 357px;
+      }
+    
+      @media screen and (max-width: 1217px){
+    
+        #adm{
+            margin-left: auto;
+          }
+      }
+      
     @media screen and (max-width:1200px){   
         #gift{
             display: block;

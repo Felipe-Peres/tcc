@@ -33,6 +33,21 @@ main {
 main p {
     display: inline-block;
 }
+.icone{
+    width: 16px;
+    padding-right: 20px;
+  }
+  #adm{
+    margin-left: 357px;
+  }
+
+  @media screen and (max-width: 1217px){
+
+    #adm{
+        margin-left: auto;
+      }
+  }
+  
 .sobre{
     margin-top: 30px;
     margin-right: 10%;

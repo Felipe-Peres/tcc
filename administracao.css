@@ -23,6 +23,21 @@ main{
 .th{
     text-align: center;
 }
+.icone{
+    width: 16px;
+    padding-right: 20px;
+  }
+  #adm{
+    margin-left: 357px;
+  }
+
+  @media screen and (max-width: 1217px){
+
+    #adm{
+        margin-left: auto;
+      }
+  }
+  
 .table{
     background-color:#fffefea6;
     border-radius: 10px;
