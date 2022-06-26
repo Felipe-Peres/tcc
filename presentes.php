@@ -15,7 +15,7 @@
     <body>
         <div class="topnav" id="myTopnav">
             <a href="home.html" id-="sobre"  class="active">INICIO</a>
-            <a href="endereco.html">ENDERECO E HORA</a>
+            <a href="endereco.php">ENDERECO E HORA</a>
             <a href="presentes.php">PRESENTES</a>
             <a href="RSVP.php">RSVP</a>
             <a href="sobre.html" >SOBRE NÓS</a>

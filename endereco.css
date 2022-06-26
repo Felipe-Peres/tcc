@@ -1,80 +1,115 @@
 *{
-    padding: 0;
-    margin: 0;
-    font-family:Helvetica;
+  padding: 0;
+  margin: 0;
+  font-family:Helvetica;
 }
 body{
-    max-width: 1200px;
-    margin: auto;
-    background-color: black;
+  max-width: 1200px;
+  margin: auto;
+  background-color: black;
 }
 header{
-    background-color:#ecceab ;
-    font-family:Helvetica;
-    text-align: center;
-    font-size: 24px;
-    text-align: center;
-    padding: 60px;
-    padding-bottom: 40px;
+  background-color:#ecceab ;
+  font-family:Helvetica;
+  text-align: center;
+  font-size: 24px;
+  text-align: center;
+  padding: 60px;
+  padding-bottom: 40px;
+
+}
+th{
+text-align: center;
+margin-top: 50px;
+ border:solid 2px;
+ border-bottom: 0px;
+
+}
+table, td{
+border: 2px solid;
+border-radius: 10px;
+
+}
+td{
+border-top: 0px;
+text-align: center;
+margin-top: 50px;
+border-radius: 10px;
+font-weight: normal;
+}
+h4{
+font-weight: bold;
+}
+.table{
+background-color:#fffefea6;
+border-radius: 10px;
+margin-bottom: 50px;
+border-color: black;
+border-radius: 10px;
+color: black;
 
 }
 .local{
-    background-color:#ecceab;
-    padding: 40px;
+  background-color:#ecceab;
+  padding: 40px;
 
 }
 .localitens{
-    padding: 40px;
-    padding-bottom: 80px;
-    font-weight: bold;
-    list-style: none;   
-    border: solid;
-    border-radius: 20px;
-    background-color:#fffefea6;
-    border-color: #b18e72;
+  padding: 40px;
+  padding-bottom: 80px;
+  font-weight: bold;
+  list-style: none;   
+  border: solid;
+  border-radius: 20px;
+  background-color:#fffefea6;
+  border-color: #b18e72;
 }
 .localitens p{
-    margiN: 10px;
-    margin-left: 50px;
-    margiN: 10px;
+  margiN: 10px;
+  margin-left: 50px;
+  margiN: 10px;
 }
 .mapa {
-    height: 300px;
-    text-align:center;
-    margin-left: auto;
-    margin-right: auto;
-    border-color: #fffefea6;
-    border-radius: 20px;
-    margin-top: 20px;
+  height: 300px;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #b18e72;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 #local{
-    border-top: solid;
-    border-radius: 0px;
-    border-color: #b18e72;
+  border-top: solid;
+  border-radius: 0px;
+  border-color: #b18e72;
 }
 .mapa h4{
-    margin-top: 15px;
+  margin-top: 15px;
 }
 footer{
-    background-color:white;
-    padding: 20px;
-    height: 50px;
-    
+  background-color:white;
+  padding: 20px;
+  height: 80px;
+  
+}
+.title{
+font-weight: bold;
 }
 .rodape{
-    height: 15px;
-    font-size: 20px;
-    list-style-type:  none;
-    float:left;
-    text-align: left;
-    margin-left: 15px;
-    border-style: solid;
-    border-width:0px 2px 0px 0px;
-    padding: 10px;
+  height: 15px;
+  font-size: 20px;
+  list-style-type:  none;
+  float:left;
+  text-align: left;
+  margin-left: 15px;
+  border-style: solid;
+  border-width:0px 2px 0px 0px;
+  padding: 10px;
 }
 .linkRodape{
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 
 }
 .linkRodape:hover{
@@ -84,127 +119,128 @@ border-radius: 10px;
 }
 
 @media screen and (max-width:1200px){
-    
-    
-    footer {
-        box-sizing: border-box;
-        margin: auto;
-        height: 100%;
-        width: 100%;
-        display: inline-block;
-    }
-    .rodape {
-        margin: auto;
-        height: auto;
-        width: auto;
-    }
+  
+  
+  footer {
+      box-sizing: border-box;
+      margin: auto;
+      height: 100%;
+      width: 100%;
+      display: inline-block;
+  }
+  .rodape {
+      margin: auto;
+      height: auto;
+      width: auto;
+  }
 
-    }
-    #ponto{
-        margin: auto;
-        width: auto;
-        padding: auto;
-        
-       
-    }
-    .local{
-        margin: 0px;
-        width: auto;
-        padding: 10px;
-    }
+  }
+  #ponto{
+      margin: auto;
+      width: auto;
+      padding: auto;
+      margin-bottom: 20p;
+      
+     
+  }
+  .local{
+      margin: 0px;
+      width: auto;
+      padding: 10px;
+  }
 
 .topnav {
-    overflow: hidden;
-    background-color: white;
-    position: fixed;
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 1200px;
-  }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bold;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
+}
 
-  }
-  
-  .topnav a:hover {
-    background-color: #ecceab;
-    border: solid;
-    border-width: 0px;
-    border-radius: 10px;
-  }
- 
-  
-  .topnav a.active {
-    background-color: #946846;
-    color: white;
-    border: solid;
-    border-width: 0px;
-    border-radius: 10px;
-  }
-  
-  .topnav .icon {
-    display: none;
-  }
-   .icone{
-    width: 16px;
-    padding-right: 20px;
-  }
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+
+}
+
+.topnav a:hover {
+  background-color: #ecceab;
+  border: solid;
+  border-width: 0px;
+  border-radius: 10px;
+}
+
+
+.topnav a.active {
+  background-color: #946846;
+  color: white;
+  border: solid;
+  border-width: 0px;
+  border-radius: 10px;
+}
+
+.topnav .icon {
+  display: none;
+}
+ .icone{
+  width: 16px;
+  padding-right: 20px;
+}
+#adm{
+  margin-left: 357px;
+}
+
+@media screen and (max-width: 1217px){
+
   #adm{
-    margin-left: 357px;
-  }
-
-  @media screen and (max-width: 1217px){
-
-    #adm{
-        margin-left: auto;
-      }
-  }
-  
-  @media screen and (max-width: 860px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
+      margin-left: auto;
     }
+}
+
+@media screen and (max-width: 860px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
   }
-  
-  @media screen and (max-width: 860px) {
-    .topnav.responsive {position: fixed;}
-    .topnav.responsive .icon {
-      position: fixed;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
+}
+
+@media screen and (max-width: 860px) {
+  .topnav.responsive {position: fixed;}
+  .topnav.responsive .icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .localitens{
+      padding: 0px;
+  }
+  .localist{
+      margin-left: 20px;
+      margin-top: 10px;
+  }
+  .mapa{
+      margin-bottom: 70px;
+  }
+  .rodape{
       float: none;
-      display: block;
-      text-align: left;
-    }
-    .localitens{
-        padding: 0px;
-    }
-    .localist{
-        margin-left: 20px;
-        margin-top: 10px;
-    }
-    .mapa{
-        margin-bottom: 70px;
-    }
-    .rodape{
-        float: none;
-        display: inline-block;
-        font-size: 18px;
-        padding: 2px;
-        padding-left: 10px;
-        padding-right: 10px;
-        border: none;
-    }
+      display: inline-block;
+      font-size: 18px;
+      padding: 2px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
   }
+}
